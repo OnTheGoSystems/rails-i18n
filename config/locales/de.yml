@@ -1,0 +1,4 @@
+de:
+  hello: "Hallo zusammen"
+  current_time: "Die aktuelle Zeit auf dem Server ist %{time}"
+  refresh: "Aktualisierungszeit"
