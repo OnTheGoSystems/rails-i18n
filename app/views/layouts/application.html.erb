@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <ul>
+      <% %w[en es de].each do |lang_code| %>
+        <li>
+          <%= link_to lang_code, time_display_path(locale: lang_code) %>
+        </li>
+      <% end %>
+    </ul>
     <%= yield %>
   </body>
 </html>

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   scope "/:locale" do
-    get '/time', to: 'home#index'
+    get '/time', to: 'home#index', as: :time_display
   end
 
   # Defines the root path route ("/")
