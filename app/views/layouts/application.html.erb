@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <ul class="language-switcher">
+      <% { en: "English", es: "Español", de: "Deutsch" }.each_pair do |lang_code, lang_name| %>
+        <li class="<%= (I18n.locale == lang_code ? 'active' : '') %>">
+          <%= link_to lang_name, url_for(locale: lang_code) %>
+        </li>
+      <% end %>
+    </ul>
     <%= yield %>
   </body>
 </html>
