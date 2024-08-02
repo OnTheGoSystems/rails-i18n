@@ -31,3 +31,5 @@ en:
   hello: "Hello there"
   current_time: "Current time on server is %{time}"
   refresh: "Refresh time"
+  confirm: "Are you sure?"
+
