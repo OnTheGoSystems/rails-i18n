@@ -1,0 +1,5 @@
+es:
+  hello: "Hola"
+  current_time: "La hora actual en el servidor es %{time}"
+  refresh: "Tiempo de actualización"
+  confirm: "¿Seguro?"
